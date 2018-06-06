@@ -11,9 +11,261 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpo">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <obo:IAO_0000232>This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works: 
+
+“Cochrane Handbook for Systematic Reviews of Interventions.” Accessed June 6, 2018. http://handbook-5-1.cochrane.org/.
+
+“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.” Accessed June 6, 2018. /epoc-taxonomy.
+
+“Glossary | Cochrane Community.” Accessed June 6, 2018. http://community.cochrane.org/glossary.
+
+Lamb, Sarah E., Clemens Becker, Lesley D. Gillespie, Jessica L. Smith, Susanne Finnegan, Rachel Potter, and Klaus Pfeiffer. “Reporting of Complex Interventions in Clinical Trials: Development of a Taxonomy to Classify and Describe Fall-Prevention Interventions.” Trials 12 (May 17, 2011): 125. https://doi.org/10.1186/1745-6215-12-125.
+
+Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Salene Jones, Callie Walsh-Bailey, and Bryan Weiner. “From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science.” Frontiers in Public Health 6 (2018). https://doi.org/10.3389/fpubh.2018.00136.
+
+Mazza, Danielle, Phillip Bairstow, Heather Buchan, Samantha Paubrey Chakraborty, Oliver Van Hecke, Cathy Grech, and Ilkka Kunnamo. “Refining a Taxonomy for Guideline Implementation: Results of an Exercise in Abstract Classification.” Implementation Science 8 (March 15, 2013): 32. https://doi.org/10.1186/1748-5908-8-32.
+
+Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
+
+Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deborah J. Cook, R. Brian Haynes, Holger J. Schünemann, and James D. Douketis. “Strategies to Enhance Venous Thromboprophylaxis in Hospitalized Medical Patients (SENTRY): A Pilot Cluster Randomized Trial.” Implementation Science 8 (January 2, 2013): 1. https://doi.org/10.1186/1748-5908-8-1.</obo:IAO_0000232>
         <owl:versionInfo>0.0.1</owl:versionInfo>
         <dc:license>need to insert license</dc:license>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>a process or event through which an implemnentation strategy operates to affect desired implementation outcomes</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <obo:IAO_0000115>a factor that is necessary in order for an implementation mechanism to be activated</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">precondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>a factor that enables or hinders the implementation strategy from eliciting the desired effect</obo:IAO_0000115>
+        <obo:IAO_0000116>Also commonly referred to as “barriers” and “facilitators”</obo:IAO_0000116>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">determinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>an intervening variable that may account for the relationship between the implementation strategy and the implementation outcome</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mediator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>a factor that increases or decreases the level of influence of an implementation strategy</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">moderator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000016"/>
+        <obo:IAO_0000115>the product of the implementation strategy that is realized because of its specific mechanism of action, the most immediate, observable outcome in the causal pathway</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">proximal outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000016"/>
+        <obo:IAO_0000115>the outcome that the implementation processes is ultimately intended to achieve, not the most immediate outcome in the causal pathway</obo:IAO_0000115>
+        <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">distal outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
+        <rdfs:label xml:lang="en">cognitive moderator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
+        <rdfs:label xml:lang="en">organizational moderator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>a purposeful procedure to achieve a specified outcome</obo:IAO_0000115>
+        <obo:IAO_0000116>Many of the subclasses for this term were taken as-is from “EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.” The complete taxomony structure was not taken. Need to revisit.</obo:IAO_0000116>
+        <obo:IAO_0000116>Secondary definition: the methods or techniques used to enhance the adoption, implementation, and sustainability of a program or practice. 
+
+From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospitalized Medical Patients (SENTRY).”</obo:IAO_0000116>
+        <obo:IAO_0000116>this term is a good candidate for IAO &apos;Planned Process&apos;</obo:IAO_0000116>
+        <obo:IAO_0000119>Mazza et al., “Refining a Taxonomy for Guideline Implementation.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">implementation strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>the process of intervening on people, groups, entities or objects in an experimental study</obo:IAO_0000115>
+        <obo:IAO_0000116>In controlled trials, the word is sometimes used to describe the regimens in all comparison groups, including placebo and no-treatment arms</obo:IAO_0000116>
+        <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115>the conditions and circumstances that are relevant to the application of an intervention</obo:IAO_0000115>
+        <obo:IAO_0000116>for example the setting (in hospital, at home, in the air); the time (working day, holiday, night-time); type of practice (primary, secondary, tertiary care; private practice, insurance practice, charity); whether routine or emergency</obo:IAO_0000116>
+        <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>the extent to which a specific intervention, when used under ordinary circumstances, does what it is intended to do</obo:IAO_0000115>
+        <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">effectiveness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>the extent to which an intervention produces a beneficial result under ideal conditions</obo:IAO_0000115>
+        <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">efficacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>a component of a recipient&apos;s status after an intervention has been applied that is used to assess the effectiveness of an intervention</obo:IAO_0000115>
+        <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
+        <obo:IAO_0000115>trategies to change organisational culture</obo:IAO_0000115>
+        <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">organisational culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
+        <obo:IAO_0000115>a summary of health workers’ performance over a specified period of time, given to them in a written electronic or verbal format. The summary may include recommendations for clinical action</obo:IAO_0000115>
+        <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">audit and feedback</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
+        <obo:IAO_0000115>monitoring of health services by individuals or healthcare organisations, for example by comparing with an external standard</obo:IAO_0000115>
+        <obo:IAO_0000115>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">monitoring the performance of the delivery of healthcare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
+        <obo:IAO_0000115>An iterative process to review and improve care that includes involvement of healthcare teams, analysis of a process or system, a structured process improvement method or problem solving approach, and use of data analysis to assess changes</obo:IAO_0000115>
+        <obo:IAO_0000115>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">continuous quality improvement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
+        <obo:IAO_0000115>interventions to change practice that are selected based on an assessment of barriers to change, for example through interviews or surveys</obo:IAO_0000115>
+        <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">tailored interventions</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
