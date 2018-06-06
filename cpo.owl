@@ -218,7 +218,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000010"/>
-        <obo:IAO_0000115>trategies to change organisational culture</obo:IAO_0000115>
+        <obo:IAO_0000115>strategies to change organisational culture</obo:IAO_0000115>
         <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">organisational culture</rdfs:label>
     </owl:Class>

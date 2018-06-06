@@ -1,2 +1,5 @@
-# add catalog file
+# ignore catalog file
 *.xml
+
+# ignore csvs
+*.csv

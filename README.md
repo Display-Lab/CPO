@@ -1,6 +1,9 @@
 # Welcome!
 Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in behavior change interventions. CPO is deliberately small to make it easier to manage and currently only imports Basic Formal Ontology (BFO). CPO is part of the knowledge base that is used to tailor performance reports to healthcare professionals.
 
+## Current Ontology Terms and Definitions
+The [DICTIONARY](DICTIONARY.md) represents all terms and definitions in the Casual Pathway Ontology that are not the result of imports from other ontologies. In order to ensure interoperability, please read the [OBO Foundry Guidelines](http://obofoundry.org/principles/fp-000-summary.html) before contributing to term development.
+
 ## Contributing to Term Development
 All contributions to terms in the ontology should be documented in an issue. Examples of contributions are:
 1. Requesting a change to a current term.
@@ -34,7 +37,7 @@ All contributions to terms in the ontology should be documented in an issue. Exa
 1. Open Protege
 1. Open cpo ontology
     1. Use File>Open... menu item
-    2. Open owl file `src/ontology/cpo.owl` in project directory
+    2. Open owl file `cpo.owl` in project directory
 
 ### Release & Publish Ontology Version
 1. Tag commit with semantic version string e.g. "v0.2.0"
