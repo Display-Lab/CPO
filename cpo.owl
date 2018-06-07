@@ -11,6 +11,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpo">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <dc:contributor>Cooper Stansbury</dc:contributor>
         <obo:IAO_0000232>This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works: 
 
 “Cochrane Handbook for Systematic Reviews of Interventions.” Accessed June 6, 2018. http://handbook-5-1.cochrane.org/.
@@ -28,7 +29,10 @@ Mazza, Danielle, Phillip Bairstow, Heather Buchan, Samantha Paubrey Chakraborty,
 Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
 
 Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deborah J. Cook, R. Brian Haynes, Holger J. Schünemann, and James D. Douketis. “Strategies to Enhance Venous Thromboprophylaxis in Hospitalized Medical Patients (SENTRY): A Pilot Cluster Randomized Trial.” Implementation Science 8 (January 2, 2013): 1. https://doi.org/10.1186/1748-5908-8-1.</obo:IAO_0000232>
+        <dc:contributor>John Rincon</dc:contributor>
         <owl:versionInfo>0.0.1</owl:versionInfo>
+        <dc:contributor>Colin Gross</dc:contributor>
+        <dc:contributor>Zach Landis-Lewis</dc:contributor>
         <dc:license>need to insert license</dc:license>
     </owl:Ontology>
     
