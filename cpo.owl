@@ -298,6 +298,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on awareness</rdfs:label>
     </owl:Class>
     
@@ -339,7 +340,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000115>a mechanbism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use</obo:IAO_0000115>
         <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on belief about capabilities</rdfs:label>
     </owl:Class>
