@@ -1,30 +1,24 @@
-## act on awareness
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000003
+## act on attention
+a mechanism that affects the ability to focus selectively on aspects of the environment
+http://purl.obolibrary.org/obo/cpo#cpo_0000023
 ## act on belief about capabilities
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000007
+"a mechanism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use"
+http://purl.obolibrary.org/obo/cpo#cpo_0000024
 ## act on emotion
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000008
-## act on identity
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000006
-## act on knowledge
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000002
+"a mechanism that affects a complex reaction pattern, involving experiential, behavioural, and physiological elements, by which the individual attempts to deal with a personally significant matter or event"
+http://purl.obolibrary.org/obo/cpo#cpo_0000025
+## act on goal
+a mechanism that affects mental representations of outcomes or end states that an individual wants to achieve
+http://purl.obolibrary.org/obo/cpo#cpo_0000032
 ## act on motivation
 def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000004
-## act on role
-def needed
-http://purl.obolibrary.org/obo/cpo#psdo_0000005
+http://purl.obolibrary.org/obo/cpo#cpo_0000034
 ## audit and feedback
 "a summary of health workers’ performance over a specified period of time, given to them in a written electronic or verbal format. The summary may include recommendations for clinical action"
 http://purl.obolibrary.org/obo/cpo#cpo_0000018
 ## casual pathway
 the structure of the relation of variables and outcomes in a specific context
-http://purl.obolibrary.org/obo/cpo#psdo_0000001
+http://purl.obolibrary.org/obo/cpo#cpo_0000029
 ## cognitive moderator
 def needed
 http://purl.obolibrary.org/obo/cpo#cpo_0000008
@@ -78,10 +72,10 @@ a component of a recipient's status after an intervention has been applied that 
 http://purl.obolibrary.org/obo/cpo#cpo_0000016
 ## precondition for mechanism of activation
 a precondition that allows for the possibility of a mechanism to act
-http://purl.obolibrary.org/obo/cpo#psdo_0000009
+http://purl.obolibrary.org/obo/cpo#cpo_0000030
 ## precondition for proximal outcome
 a precondition that allows for the possibility of a proximal outcome
-http://purl.obolibrary.org/obo/cpo#psdo_0000010
+http://purl.obolibrary.org/obo/cpo#cpo_0000031
 ## precondition
 a factor that is necessary in order for an implementation mechanism or implementation outcome to be activated
 http://purl.obolibrary.org/obo/cpo#cpo_0000002
