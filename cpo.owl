@@ -156,7 +156,7 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>a purposeful procedure to achieve a specified outcome</obo:IAO_0000115>
         <obo:IAO_0000116>Many of the subclasses for this term were taken as-is from “EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.” The complete taxomony structure was not taken. Need to revisit.</obo:IAO_0000116>
         <obo:IAO_0000116>Secondary definition: the methods or techniques used to enhance the adoption, implementation, and sustainability of a program or practice. 
@@ -184,7 +184,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>the conditions and circumstances that are relevant to the application of an intervention</obo:IAO_0000115>
         <obo:IAO_0000116>for example the setting (in hospital, at home, in the air); the time (working day, holiday, night-time); type of practice (primary, secondary, tertiary care; private practice, insurance practice, charity); whether routine or emergency</obo:IAO_0000116>
         <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
@@ -274,9 +274,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000115>a mechanism that affects the ability to focus selectively on aspects of the environment</obo:IAO_0000115>
         <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on awareness</rdfs:label>
+        <rdfs:label xml:lang="en">act on attention</rdfs:label>
     </owl:Class>
     
 
@@ -285,7 +285,8 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>a mechanbism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use</obo:IAO_0000115>
+        <obo:IAO_0000115>a mechanism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on belief about capabilities</rdfs:label>
     </owl:Class>
@@ -296,42 +297,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000115>a mechanism that affects a complex reaction pattern, involving experiential, behavioural, and physiological elements, by which the individual attempts to deal with a personally significant matter or event</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on emotion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on identity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
-        <rdfs:label xml:lang="en">act on motivation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on role</rdfs:label>
     </owl:Class>
     
 
@@ -367,6 +336,37 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>a precondition that allows for the possibility of a proximal outcome</obo:IAO_0000115>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">precondition for proximal outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>a mechanism that affects mental representations of outcomes or end states that an individual wants to achieve</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on motivation</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
