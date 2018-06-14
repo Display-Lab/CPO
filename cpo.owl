@@ -270,9 +270,75 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on awareness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>a mechanbism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use</obo:IAO_0000115>
+        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on belief about capabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on emotion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
+        <rdfs:label xml:lang="en">act on motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">act on role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115>the structure of the relation of variables and outcomes in a specific context</obo:IAO_0000115>
         <obo:IAO_0000116>a casual pathway is a set of features &quot;of the mechanistic processes
@@ -283,84 +349,9 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000002 -->
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000030 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on awareness</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">act on motivation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000006 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on identity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>a mechanbism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on belief about capabilities</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">act on emotion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000009">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000002"/>
         <obo:IAO_0000115>a precondition that allows for the possibility of a mechanism to act</obo:IAO_0000115>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
@@ -369,9 +360,9 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#psdo_0000010 -->
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#psdo_0000010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000002"/>
         <obo:IAO_0000115>a precondition that allows for the possibility of a proximal outcome</obo:IAO_0000115>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
