@@ -16,18 +16,8 @@
         <owl:versionInfo>0.0.1</owl:versionInfo>
         <dc:contributor>Colin Gross</dc:contributor>
         <dc:contributor>Zach Landis-Lewis</dc:contributor>
+        <dc:license>need to insert license</dc:license>
         <obo:IAO_0000232>This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works: 
-
-“Cochrane Handbook for Systematic Reviews of Interventions.” Accessed June 6, 2018. http://handbook-5-1.cochrane.org/.
-
-“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.” Accessed June 6, 2018. /epoc-taxonomy.
-
-“Glossary | Cochrane Community.” Accessed June 6, 2018. http://community.cochrane.org/glossary.
-
-Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100. 
-
-
-Lamb, Sarah E., Clemens Becker, Lesley D. Gillespie, Jessica L. Smith, Susanne Finnegan, Rachel Potter, and Klaus Pfeiffer. “Reporting of Complex Interventions in Clinical Trials: Development of a Taxonomy to Classify and Describe Fall-Prevention Interventions.” Trials 12 (May 17, 2011): 125. https://doi.org/10.1186/1745-6215-12-125.
 
 Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Salene Jones, Callie Walsh-Bailey, and Bryan Weiner. “From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science.” Frontiers in Public Health 6 (2018). https://doi.org/10.3389/fpubh.2018.00136.
 
@@ -35,8 +25,7 @@ Mazza, Danielle, Phillip Bairstow, Heather Buchan, Samantha Paubrey Chakraborty,
 
 Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
 
-Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deborah J. Cook, R. Brian Haynes, Holger J. Schünemann, and James D. Douketis. “Strategies to Enhance Venous Thromboprophylaxis in Hospitalized Medical Patients (SENTRY): A Pilot Cluster Randomized Trial.” Implementation Science 8 (January 2, 2013): 1. https://doi.org/10.1186/1748-5908-8-1.</obo:IAO_0000232>
-        <dc:license>need to insert license</dc:license>
+More publication citations can be found at the annotation property level for the interested reader.</obo:IAO_0000232>
     </owl:Ontology>
     
 
@@ -55,8 +44,9 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>a process or event through which an implemnentation strategy operates to affect desired implementation outcomes</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000004"/>
+        <obo:IAO_0000115>a process or event through which an implemnentation strategy operates to affect implementation outcomes</obo:IAO_0000115>
+        <obo:IAO_0000116>this definition needs work. it is unclear how the authors of the cited source intend the relationship between moderators and mediators, given that they are not both defined as subclasses with a common parent.</obo:IAO_0000116>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mechanism</rdfs:label>
     </owl:Class>
@@ -89,8 +79,8 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <obo:IAO_0000115>an intervening variable that may account for the relationship between the implementation strategy and the implementation outcome</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>an intervening process that affects for the relationship between the implementation strategy and the implementation outcome</obo:IAO_0000115>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mediator</rdfs:label>
     </owl:Class>
@@ -100,8 +90,8 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <obo:IAO_0000115>a factor that increases or decreases the level of influence of an implementation strategy</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>a factor that affects the level of influence of an implementation strategy</obo:IAO_0000115>
         <obo:IAO_0000116>moderators functionally &apos;act&apos; on mechanisms, but do not prevent or require mechanisms to &apos;fire.&apos;</obo:IAO_0000116>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">moderator</rdfs:label>
@@ -135,7 +125,8 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000115>a cognitive factor that affects the level of influence of an implementation strategy before a mechanism acts on the situation</obo:IAO_0000115>
+        <obo:IAO_0000116>the authors of the cited source are unclear concerning the definitive difference between &apos;cognitive&apos; and &apos;organizational&apos; moderators except in the diagrams on page 3. The indicates a temporal difference between the two, which has been represented here.</obo:IAO_0000116>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">cognitive moderator</rdfs:label>
     </owl:Class>
@@ -146,7 +137,7 @@ Pai, Menaka, Nancy S. Lloyd, Ji Cheng, Lehana Thabane, Frederick A. Spencer, Deb
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <obo:IAO_0000115>an organizational factor that affects the level of influence of an implementation strategy after, or simultaneously with, a mechanism that acts on the situation</obo:IAO_0000115>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">organizational moderator</rdfs:label>
     </owl:Class>
@@ -308,7 +299,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>the structure of the relation of variables and outcomes in a specific context</obo:IAO_0000115>
         <obo:IAO_0000116>a casual pathway is a set of features &quot;of the mechanistic processes
 through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_0000116>
@@ -355,6 +346,8 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
+        <obo:IAO_0000115>a mechanism that affects an awareness of the existence of something</obo:IAO_0000115>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
     </owl:Class>
     
@@ -364,9 +357,65 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000001"/>
-        <obo:IAO_0000115>def needed</obo:IAO_0000115>
-        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <obo:IAO_0000115>a mechanism that affects a conscious decision to perform a behaviour or a resolve to act in a certain way</obo:IAO_0000115>
+        <obo:IAO_0000116>This was adapted from the category &apos;intention&apos; in the cited source. The authors list &apos;intrinic motivation&apos; under the category of intention. This needed to be revisited.</obo:IAO_0000116>
+        <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000008"/>
+        <obo:IAO_0000115>a sensitivity of the intended recipient of an intevention towards gain and pleasure</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">promotion focus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000008"/>
+        <obo:IAO_0000115>a sensitivity of the intended recipient of an intevention towards loss and avoidance of pain</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">prevention focus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000039"/>
+        <obo:IAO_0000115>a method of presenting information that is intended to affect an intended reciepients&apos;s perception of gain or opporunity</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">promotion framing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000039"/>
+        <obo:IAO_0000115>a method of presenting information that is intended to affect an intended reciepients&apos;s perception of loss or risk</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">prevention framing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000009"/>
+        <obo:IAO_0000115>a method of presenting information that is intended to affect the influence of an implementation strategy</obo:IAO_0000115>
+        <obo:IAO_0000119>source needed</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">message framing</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
