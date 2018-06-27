@@ -43,12 +43,30 @@ http://purl.obolibrary.org/obo/cpo#cpo_0000007
 ## effectiveness
 "the extent to which a specific intervention, when used under ordinary circumstances, does what it is intended to do"
 http://purl.obolibrary.org/obo/cpo#cpo_0000014
+## high performance - downward trend
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000041
+## high performance - stable
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000042
+## high performance - upward trend
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000043
 ## implementation strategy
 a purposeful procedure to achieve a specified outcome
 http://purl.obolibrary.org/obo/cpo#cpo_0000010
 ## intervention
 "the process of intervening on people, groups, entities or objects in an experimental study"
 http://purl.obolibrary.org/obo/cpo#cpo_0000011
+## low performance - downward trend
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000044
+## low performance - stable
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000045
+## low performance - upward trend
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000046
 ## mechanism
 a process or event through which an implemnentation strategy operates to affect implementation outcomes
 http://purl.obolibrary.org/obo/cpo#cpo_0000001
@@ -76,6 +94,9 @@ http://purl.obolibrary.org/obo/cpo#cpo_0000009
 ## outcome
 a component of a recipient's status after an intervention has been applied that is used to assess the effectiveness of an intervention
 http://purl.obolibrary.org/obo/cpo#cpo_0000016
+## performance precondition
+def needed
+http://purl.obolibrary.org/obo/cpo#cpo_0000040
 ## precondition for mechanism of activation
 a precondition that allows for the possibility of a mechanism to act
 http://purl.obolibrary.org/obo/cpo#cpo_0000030

@@ -16,8 +16,7 @@
         <owl:versionInfo>0.0.1</owl:versionInfo>
         <dc:contributor>Colin Gross</dc:contributor>
         <dc:contributor>Zach Landis-Lewis</dc:contributor>
-        <dc:license>need to insert license</dc:license>
-        <obo:IAO_0000232>This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works: 
+        <obo:IAO_0000232>This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works:
 
 Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Salene Jones, Callie Walsh-Bailey, and Bryan Weiner. “From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science.” Frontiers in Public Health 6 (2018). https://doi.org/10.3389/fpubh.2018.00136.
 
@@ -26,6 +25,7 @@ Mazza, Danielle, Phillip Bairstow, Heather Buchan, Samantha Paubrey Chakraborty,
 Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
 
 More publication citations can be found at the annotation property level for the interested reader.</obo:IAO_0000232>
+        <dc:license>need to insert license</dc:license>
     </owl:Ontology>
     
 
@@ -150,7 +150,7 @@ More publication citations can be found at the annotation property level for the
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>a purposeful procedure to achieve a specified outcome</obo:IAO_0000115>
         <obo:IAO_0000116>Many of the subclasses for this term were taken as-is from “EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.” The complete taxomony structure was not taken. Need to revisit.</obo:IAO_0000116>
-        <obo:IAO_0000116>Secondary definition: the methods or techniques used to enhance the adoption, implementation, and sustainability of a program or practice. 
+        <obo:IAO_0000116>Secondary definition: the methods or techniques used to enhance the adoption, implementation, and sustainability of a program or practice.
 
 From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospitalized Medical Patients (SENTRY).”</obo:IAO_0000116>
         <obo:IAO_0000116>this term is a good candidate for IAO &apos;Planned Process&apos;</obo:IAO_0000116>
@@ -416,6 +416,85 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>a method of presenting information that is intended to affect the influence of an implementation strategy</obo:IAO_0000115>
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">message framing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000030"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance precondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">high performance - downward trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">high performance - stable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">high performance - upward trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">low performance - downward trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">low performance - stable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <obo:IAO_0000115>def needed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">low performance - upward trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000040"/>
+        <rdfs:label xml:lang="en">top performer</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
