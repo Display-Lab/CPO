@@ -27,10 +27,10 @@ Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex
 More publication citations can be found at the annotation property level for the interested reader.</obo:IAO_0000232>
         <dc:license>need to insert license</dc:license>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -38,7 +38,7 @@ More publication citations can be found at the annotation property level for the
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000001 -->
@@ -50,7 +50,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mechanism</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000002 -->
@@ -61,7 +61,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">precondition</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000003 -->
@@ -73,7 +73,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">determinant</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000004 -->
@@ -84,7 +84,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mediator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000005 -->
@@ -96,7 +96,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">moderator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000006 -->
@@ -107,7 +107,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">proximal outcome</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000007 -->
@@ -118,7 +118,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis et al., “From Classification to Causality.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">distal outcome</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000008 -->
@@ -130,7 +130,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">cognitive moderator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000009 -->
@@ -141,7 +141,7 @@ More publication citations can be found at the annotation property level for the
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">organizational moderator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000010 -->
@@ -157,7 +157,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>Mazza et al., “Refining a Taxonomy for Guideline Implementation.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">implementation strategy</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000011 -->
@@ -169,7 +169,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">intervention</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000013 -->
@@ -181,7 +181,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">context</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000014 -->
@@ -192,7 +192,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">effectiveness</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000016 -->
@@ -203,7 +203,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“Glossary | Cochrane Community.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">outcome</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000017 -->
@@ -214,7 +214,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">organisational culture</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000018 -->
@@ -225,7 +225,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">audit and feedback</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000019 -->
@@ -236,7 +236,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000115>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
         <rdfs:label xml:lang="en">monitoring the performance of the delivery of healthcare</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000020 -->
@@ -247,7 +247,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000115>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
         <rdfs:label xml:lang="en">continuous quality improvement</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000021 -->
@@ -258,7 +258,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tailored interventions</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000023 -->
@@ -269,7 +269,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on attention</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000024 -->
@@ -281,7 +281,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on belief about capabilities</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000025 -->
@@ -293,7 +293,7 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119>Kolehmainen N, Francis JJ. Specifying content and mechanisms of change in interventions to change professionals’ practice: an illustration from the Good Goals study in occupational therapy. Implementation Science. 2012 Oct 18;7:100.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on emotion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000029 -->
@@ -301,12 +301,12 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>the structure of the relation of variables and outcomes in a specific context</obo:IAO_0000115>
-        <obo:IAO_0000116>a casual pathway is a set of features &quot;of the mechanistic processes
+        <obo:IAO_0000116>a causal pathway is a set of features &quot;of the mechanistic processes
 through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_0000116>
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">casual pathway</rdfs:label>
+        <rdfs:label xml:lang="en">causal pathway</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000030 -->
@@ -317,7 +317,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">precondition for mechanism of activation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000031 -->
@@ -328,7 +328,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">precondition for proximal outcome</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000032 -->
@@ -339,7 +339,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on goal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000033 -->
@@ -350,7 +350,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on knowledge</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000034 -->
@@ -362,7 +362,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>Cane J, O’Connor D, Michie S. Validation of the theoretical domains framework for use in behaviour change and implementation research. Implementation Science. 2012 Apr 24;7:37.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act on motivation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000035 -->
@@ -373,7 +373,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">promotion focus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000036 -->
@@ -384,7 +384,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">prevention focus</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000037 -->
@@ -395,7 +395,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">promotion framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000038 -->
@@ -406,7 +406,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">prevention framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000039 -->
@@ -417,7 +417,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000119>source needed</obo:IAO_0000119>
         <rdfs:label xml:lang="en">message framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000040 -->
@@ -427,7 +427,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance precondition</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000041 -->
@@ -437,7 +437,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">high performance - downward trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000042 -->
@@ -447,7 +447,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">high performance - stable</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000043 -->
@@ -457,7 +457,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">high performance - upward trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000044 -->
@@ -467,7 +467,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">low performance - downward trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000045 -->
@@ -477,7 +477,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">low performance - stable</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000046 -->
@@ -487,7 +487,7 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
         <obo:IAO_0000115>def needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">low performance - upward trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000047 -->
@@ -501,4 +501,3 @@ through which implementation strategies operate&quot; (Lewis 2018).</obo:IAO_000
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-

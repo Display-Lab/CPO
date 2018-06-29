@@ -19,7 +19,7 @@ http://purl.obolibrary.org/obo/cpo#cpo_0000034
 ## audit and feedback
 "a summary of health workers’ performance over a specified period of time, given to them in a written electronic or verbal format. The summary may include recommendations for clinical action"
 http://purl.obolibrary.org/obo/cpo#cpo_0000018
-## casual pathway
+## causal pathway
 the structure of the relation of variables and outcomes in a specific context
 http://purl.obolibrary.org/obo/cpo#cpo_0000029
 ## cognitive moderator
