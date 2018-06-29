@@ -1,6 +1,13 @@
 # Welcome!
-Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in behavior change interventions. CPO is deliberately small to make it easier to manage and currently only imports Basic Formal Ontology (BFO). CPO is part of the knowledge base that is used to tailor performance reports to healthcare professionals.
+Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in behavior change interventions. CPO is deliberately small to make it easier to manage and currently only imports Basic Formal Ontology (BFO). CPO is part of the knowledge base that is used to tailor performance reports to healthcare professionals. This work is not peer-reviewed.
 
+## Competing Interests
+The authors declare no competing interests.
+
+## Acknowledgements
+Research reported in this ontology was supported by the National Library of Medicine of the National Institutes of Health under grant number 1K01LM012528-01.
+
+# Ontology Content
 ## Current Ontology Terms and Definitions
 The [DICTIONARY](DICTIONARY.md) represents all terms and definitions in the Casual Pathway Ontology that are not the result of imports from other ontologies. In order to ensure interoperability, please read the [OBO Foundry Guidelines](http://obofoundry.org/principles/fp-000-summary.html) before contributing to term development.
 
