@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cpo#"
-     xml:base="http://purl.obolibrary.org/obo/cpo"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cpo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cpo.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -11,38 +12,23 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpo">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2018-09-11/cpo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
-        <obo:IAO_0000232 xml:lang="en">This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works (non-exhaustive):
+        <dc:description xml:lang="en">This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works (non-exhaustive):
 
 Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Salene Jones, Callie Walsh-Bailey, and Bryan Weiner. “From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science.” Frontiers in Public Health 6 (2018). https://doi.org/10.3389/fpubh.2018.00136.
 
-Mazza, Danielle, Phillip Bairstow, Heather Buchan, Samantha Paubrey Chakraborty, Oliver Van Hecke, Cathy Grech, and Ilkka Kunnamo. “Refining a Taxonomy for Guideline Implementation: Results of an Exercise in Abstract Classification.” Implementation Science 8 (March 15, 2013): 32. https://doi.org/10.1186/1748-5908-8-32.
-
 Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
 
-More publication citations can be found at the annotation property level for the interested reader.</obo:IAO_0000232>
-        <dc:license xml:lang="en">Ontology Content
-The ontology content is licensed under a Creative Commons Attribution 4.0 International License.
-
-Source Code
-Copyright 2018 Regents of the University of Michigan
-
-Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</dc:license>
+More publication citations can be found at the annotation property level for the interested reader.</dc:description>
         <dc:creator xml:lang="en">John Rincon</dc:creator>
         <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
+        <dc:title xml:lang="en">Causal Pathway Ontology</dc:title>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:creator xml:lang="en">Colin Gross</dc:creator>
     </owl:Ontology>
     
@@ -59,10 +45,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000004"/>
         <obo:IAO_0000115 xml:lang="en">A mediator through which an implemnentation strategy operates to affect desired implementation outcomes.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
@@ -72,11 +58,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000002 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">A contextual factor that is necessary for a mechanism or implementation outcome to be activated.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is necessary for a mechanism or implementation outcome to be activated.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">precondition</rdfs:label>
@@ -84,9 +70,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000003">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A contextual factor that enables or hinders the implementation strategy from eliciting the desired effect.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -98,9 +84,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000004 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000004 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000004">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">An intervening variable that may account for the relationship between the implementation strategy and the implementation outcome.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -110,11 +96,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000005 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000005 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">A factor that affects the level of influence of an implementation strategy.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependant continuant that affects the level of influence of an implementation strategy.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">moderators functionally &apos;act&apos; on mechanisms, but do not prevent or require mechanisms to &apos;fire.&apos;</obo:IAO_0000232>
@@ -123,11 +109,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000006 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">A product of the implementation strategy that is realized because of its specific mechanism of action, and is the most immediate, observable outcome in the causal pathway.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that represents the outcome of the implementation strategy that is realized because of its specific mechanism of action, and is the most immediate, observable outcome in the causal pathway.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">proximal outcome</rdfs:label>
@@ -135,11 +121,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000007 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000007 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">An outcome that an implementation processes is designed to achieve.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that represents the outcome that an implementation processes is designed to achieve.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label xml:lang="en">distal outcome</rdfs:label>
@@ -147,10 +133,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000008 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000005"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that affects the level of influence of an implementation strategy before a mechanism acts on the situation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
@@ -160,10 +146,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000009 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000009 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000005"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000005"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that affects the level of influence of an implementation strategy after, or simultaneously with, a mechanism that acts on the situation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
@@ -172,9 +158,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000010 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000010 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000010">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a procedure to achieve a specified outcome in an intervention.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Secondary definition: the methods or techniques used to enhance the adoption, implementation, and sustainability of a program or practice.
@@ -189,9 +175,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000011 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000011">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A process of intervening on people, groups, entities or objects in an experimental study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -203,9 +189,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000013 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000013">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant which is the conditions and circumstances that are relevant to the application of an intervention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -217,9 +203,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000014 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000014 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000014">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000014">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A specifically dependent continuant which is the extent to which a specific intervention, when used under ordinary circumstances, does what it is intended to do.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -230,23 +216,24 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000016 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000016 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A process which is a component of a recipient&apos;s status after an intervention has been applied that is used to assess the effectiveness of an intervention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">“Glossary | Cochrane Community.”</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">intervention outcome</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete intervention outcome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000017 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000017 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000017">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000017">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">strategies to change organisational culture</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Strategies to change organisational culture.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete organisational culture</rdfs:label>
@@ -255,11 +242,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000018 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000018">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000018">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a summary of health workers’ performance over a specified period of time, given to them in a written electronic or verbal format. The summary may include recommendations for clinical action</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A summary of health workers’ performance over a specified period of time, given to them in a written electronic or verbal format. The summary may include recommendations for clinical action</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete audit and feedback</rdfs:label>
@@ -268,12 +255,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000019 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000019 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000019">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000019">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">monitoring of health services by individuals or healthcare organisations, for example by comparing with an external standard</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Monitoring of health services by individuals or healthcare organisations, for example by comparing with an external standard.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete monitoring the performance of the delivery of healthcare</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -281,12 +267,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000020 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000020 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000020">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000020">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An iterative process to review and improve care that includes involvement of healthcare teams, analysis of a process or system, a structured process improvement method or problem solving approach, and use of data analysis to assess changes</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete continuous quality improvement</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -294,11 +279,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000021 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000021 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000021">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000021">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">interventions to change practice that are selected based on an assessment of barriers to change, for example through interviews or surveys</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Interventions to change practice that are selected based on an assessment of barriers to change, for example through interviews or surveys</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">“EPOC Taxonomy | Cochrane Effective Practice and Organisation of Care.”</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete tailored interventions</rdfs:label>
@@ -307,9 +292,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000023 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000023">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000023">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects the ability to focus selectively on aspects of the environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -320,9 +305,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000024 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000024 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000024">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000024">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects acceptance of the truth, reality, or validity about an ability, talent, or facility that a person can put to constructive use.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -334,9 +319,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000025 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000025">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000025">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects a complex reaction pattern, involving experiential, behavioural, and physiological elements, by which the individual attempts to deal with a personally significant matter or event.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -348,22 +333,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000029 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000029 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000029">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cpo#cpo_0000052"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A process through which an implementation strategy operates to affect desired implementation outcomes.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
@@ -373,11 +346,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000030 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000030 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000030">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a precondition that allows for the possibility of a mechanism to act</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A precondition that allows for the possibility of a mechanism to act</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete precondition for mechanism of activation</rdfs:label>
@@ -386,11 +359,11 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000031 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000031">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000031">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a precondition that allows for the possibility of a proximal outcome</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A precondition that allows for the possibility of a proximal outcome</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, et al. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health [Internet]. 2018 [cited 2018 Jun 6];6. Available from: https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete precondition for proximal outcome</rdfs:label>
@@ -399,9 +372,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000032 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000032 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000032">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000032">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects mental representations of outcomes or end states that an individual wants to achieve.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -412,9 +385,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000033 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000033 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000033">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000033">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects an awareness of the existence of something.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -425,9 +398,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000034 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000034 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000034">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000034">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A mechanism that affects a conscious decision to perform a behaviour or a resolve to act in a certain way.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -439,9 +412,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000035 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000035 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000035">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000035">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that is a sensitivity of the intended recipient of an intevention towards gain and pleasure</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -452,9 +425,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000036 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000036 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000036">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000036">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that is a sensitivity of the intended recipient of an intevention towards loss and avoidance of pain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -465,9 +438,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000037 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000037 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000037">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000037">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that is a method of presenting information that is intended to affect an intended reciepients&apos;s perception of gain or opporunity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -478,9 +451,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000038 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000038 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000038">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000038">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A moderator that is a method of presenting information that is intended to affect an intended reciepients&apos;s perception of loss or risk</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -491,9 +464,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000039 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000039 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000039">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000039">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An organizational moderator which is a method of presenting information that is intended to affect the influence of an implementation strategy.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -504,11 +477,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000040 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000040">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000040">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete performance precondition</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -516,11 +488,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000041 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000041 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000041">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000041">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete high performance - downward trend</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -528,11 +499,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000042 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000042 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000042">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000042">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete high performance - stable</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -540,11 +510,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000043 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000043 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000043">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000043">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete high performance - upward trend</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -552,11 +521,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000044 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000044 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000044">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000044">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete low performance - downward trend</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -564,11 +532,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000045 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000045 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000045">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000045">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete low performance - stable</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -576,11 +543,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000046 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000046 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000046">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000046">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete low performance - upward trend</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -588,11 +554,10 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000047 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000047 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000047">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000047">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete top performer</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -600,9 +565,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000050 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000050 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000050">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000050">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens which is realized in the process of receiving feedback during an intervention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -613,9 +578,9 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#cpo_0000052 -->
+    <!-- http://purl.obolibrary.org/obo/cpo_0000052 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#cpo_0000052">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000052">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A process which affects an intervention outcome or variability of an intervention outcome.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -626,28 +591,14 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cpo#http://purl.obolibrary.org/obo/ERO_0000347 -->
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/ERO_0000347 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo#http://purl.obolibrary.org/obo/ERO_0000347">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/ERO_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>A planned process used to influence one or more factors in a research study, and the independent variable in an interventional study wherein the influence is measured or evaluated.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000347"/>
         <rdfs:label xml:lang="en">intervention</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000005">
-        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-    </rdf:Description>
 </rdf:RDF>
 
 
