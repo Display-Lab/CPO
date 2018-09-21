@@ -11,7 +11,7 @@ http://purl.obolibrary.org/obo/cpo_0000008
 An information content entity that represents the outcome that a candidate intervention is designed to achieve.
 http://purl.obolibrary.org/obo/cpo_0000007
 ## mechanism
-A mediator through which an implemnentation strategy operates to affect desired implementation outcomes.
+A mediator through which an implementation strategy operates to affect desired implementation outcomes.
 http://purl.obolibrary.org/obo/cpo_0000001
 ## mediator
 An information content entity that may account for the relationship between the implementation strategy and the implementation outcome.

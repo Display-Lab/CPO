@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
-# Requires xmllint to be installed
+# Requires robot to be installed
 command -v robot 1> /dev/null 2>&1 || \
   { echo >&2 "robot required but it's not installed.  Aborting."; exit 1; }
+
+# Requires robot to be installed
+command -v aspell 1> /dev/null 2>&1 || \
+  { echo >&2 "aspell required but it's not installed.  Aborting."; exit 1; }
 
 # Start by assuming it was the path invoked.
 THIS_SCRIPT="$0"
@@ -25,6 +29,7 @@ done
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
 CPO="${SCRIPT_DIR}/../cpo.owl"
+LOG="${SCRIPT_DIR}/cpo_log.txt"
 
 # add date to IRI version
 robot annotate \
@@ -33,22 +38,29 @@ robot annotate \
   --version-iri "http://purl.obolibrary.org/obo/`date '+%Y-%m-%d'`/cpo.owl" \
   --output cpo-updated.owl
 
-RELEASE_LOG=${SCRIPT_DIR}/cpo_release_log.txt
+# run robot report, results to stdout and some to file
+robot report --input ${CPO} --output ${LOG} | head -n 5
 
-# format release log
-echo "#########################" >> ${RELEASE_LOG}
-echo "RELEASE DATE '+%Y-%m-%d'" >> ${RELEASE_LOG}
-
-# run robot report
-robot report --input ${CPO} | tee -a ${RELEASE_LOG}
-echo "" >> ${RELEASE_LOG}
-
-# print success back to CLI
-echo "New Release Created. Check cpo_release_log.txt for logging and report."
+echo "Robot results can be seen here: ${LOG}"
 
 # update dictionary as part of release process
 ${SCRIPT_DIR}/make-dict.sh
 
+echo ""
+echo "The following lines contain misspelled words in the ontology, please fix them in ${CPO}:"
+echo ""
+
+# spell checker
+< ${SCRIPT_DIR}/../DICTIONARY.md aspell list | grep -f /dev/stdin -C 1 ${SCRIPT_DIR}/../DICTIONARY.md
+
+echo ""
+
 # clean up
-rm cpo.owl
-mv cpo-updated.owl cpo.owl
+while true; do
+    read -p "Are you ready to release this version?" yn
+    case $yn in
+        [Yy]* ) rm cpo.owl; mv cpo-updated.owl cpo.owl; rm catalog-v001.xml; echo 'RELEASE COMPLETE.'; break;;
+        [Nn]* ) rm cpo-updated.owl; exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done

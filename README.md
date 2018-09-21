@@ -32,8 +32,8 @@ All contributions to terms in the ontology should be documented in an issue. Exa
 1. Collect required information for a new term in the body of the issue.
     * Term name
     * Definition
-    * Comment (rdfs:comment)
-    * Reference
+    * Comment
+    * Reference (strongly encouraged)
 1. Create the issue for the new term.
 
 ## Development
@@ -42,14 +42,13 @@ All contributions to terms in the ontology should be documented in an issue. Exa
 1. Download & install Protege
 1. `cd` to project directory
 1. Open Protege
-1. Open cpo ontology
+1. Open `cpo.owl`
     1. Use File>Open... menu item
     2. Open owl file `cpo.owl` in project directory
 
 ### Release & Publish Ontology Version
-1. Tag commit with semantic version string e.g. "v0.2.0"
-1. Build .owl (rdf-xml) and .obo artifacts.
-1. Update OBO Foundry
+1. Run the command `tools/cpo_release.sh` and follow the prompts on the command line.
+
 
 ## License
 ### Ontology Content
