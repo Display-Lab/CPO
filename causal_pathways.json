@@ -1,0 +1,37 @@
+{
+  "causal_pathway": {
+    "generic_causal_pathway": [
+      {
+        "id": "generic pathway",
+        "description": "",
+        "precondition": "",
+        "moderator": {
+          "cognitive_moderator": "",
+          "organizational_moderator": ""
+        },
+        "mediator": {
+          "mechanism": ""
+        },
+        "distal_outcome": "",
+        "proximal_outcome": ""
+      },
+      {
+        "id": "no bar",
+        "description": "A display with peer comparison is more appropriate for learned behaviors",
+        "precondition": [
+          "Normative comparator",
+          "NO Capability barrier"
+        ],
+        "moderator": {
+          "cognitive_moderator": "",
+          "organizational_moderator": ""
+        },
+        "mediator": {
+          "mechanism": "Normative comparators like peer comparison or other standards ARE appropriate for 'easy' or learned behaviors (i.e. those that are not associated with capability barriers in the recipient) because they do not result in significant attention being directed to the self, and can motivate the recipient to increase effort"
+        },
+        "distal_outcome": "",
+        "proximal_outcome": "More appropriate"
+      }
+    ]
+  }
+}

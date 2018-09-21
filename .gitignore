@@ -3,3 +3,6 @@
 
 # ignore csvs
 *.csv
+
+# ignore release file;
+tools/cpo_log.txt
