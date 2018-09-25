@@ -2,7 +2,7 @@
 A plan specification that is designed to change specified behaviour patterns that may be used in an intervention.
 http://purl.obolibrary.org/obo/cpo_0000053
 ## causal pathway
-A process through which an implementation strategy operates to affect desired implementation outcomes.
+An information content entity about a process through which an implementation strategy operates to affect desired implementation outcomes.
 http://purl.obolibrary.org/obo/cpo_0000029
 ## cognitive moderator
 A moderator that affects the level of influence of an implementation strategy before a mechanism acts on the situation.
