@@ -621,6 +621,28 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <obo:IAO_0000119 xml:lang="en"></obo:IAO_0000119>
         <rdfs:label xml:lang="en">implementation strategy</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000002"/>
+        <obo:IAO_0000115>An information content entity that is necessary for a mechanism to be activated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>mechanism precondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000002"/>
+        <obo:IAO_0000115>An information content entity that is necessary for an outcome to be activated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>outcome precondition</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
