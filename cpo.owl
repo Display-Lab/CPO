@@ -1,25 +1,29 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/cpo.owl#"
      xml:base="http://purl.obolibrary.org/obo/cpo.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:cito="http://purl.org/spar/cito/"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2018-09-24/cpo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2018-05-11/ro.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2018-05-11/ro.owl"/>
+        <dc:creator xml:lang="en">Colin Gross</dc:creator>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <dc:creator xml:lang="en">John Rincon</dc:creator>
+        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
         <dc:description xml:lang="en">This ontology has been designed to conform to BFO and OBO standards and stands in reference to the following works (non-exhaustive):
 
 Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Salene Jones, Callie Walsh-Bailey, and Bryan Weiner. “From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science.” Frontiers in Public Health 6 (2018). https://doi.org/10.3389/fpubh.2018.00136.
@@ -27,14 +31,27 @@ Lewis, Cara C., Predrag Klasnja, Byron J. Powell, Aaron R. Lyon, Leah Tuzzio, Sa
 Michie, Susan, Stefanie Ashford, Falko F. Sniehotta, Stephan U. Dombrowski, Alex Bishop, and David P. French. “A Refined Taxonomy of Behaviour Change Techniques to Help People Change Their Physical Activity and Healthy Eating Behaviours: The CALO-RE Taxonomy.” Psychology &amp; Health 26, no. 11 (November 1, 2011): 1479–98. https://doi.org/10.1080/08870446.2010.540664.
 
 More publication citations can be found at the annotation property level for the interested reader.</dc:description>
-        <dc:creator xml:lang="en">John Rincon</dc:creator>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
-        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
         <dc:title xml:lang="en">Causal Pathway Ontology</dc:title>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
-        <dc:creator xml:lang="en">Colin Gross</dc:creator>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -601,12 +618,34 @@ From: Pai et al., “Strategies to Enhance Venous Thromboprophylaxis in Hospital
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that is designed to change specified behaviour patterns that may be used in an intervention.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Michie S, Stralen MMV, West R. The behaviour change wheel: A new method for characterising and designing behaviour change interventions. Implementation Science. 2011;6(1).</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">candidate intervention</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en"></obo:IAO_0000119>
+        <rdfs:label xml:lang="en">implementation strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000002"/>
+        <obo:IAO_0000115>An information content entity that is necessary for a mechanism to be activated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>mechanism precondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpo_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpo_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cpo_0000002"/>
+        <obo:IAO_0000115>An information content entity that is necessary for an outcome to be activated.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>outcome precondition</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
