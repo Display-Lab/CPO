@@ -1,6 +1,3 @@
-## candidate intervention
-A plan specification that is designed to change specified behaviour patterns that may be used in an intervention.
-http://purl.obolibrary.org/obo/cpo_0000053
 ## causal pathway
 An information content entity about a process through which an implementation strategy operates to affect desired implementation outcomes.
 http://purl.obolibrary.org/obo/cpo_0000029
@@ -10,6 +7,12 @@ http://purl.obolibrary.org/obo/cpo_0000008
 ## distal outcome
 An information content entity that represents the outcome that a candidate intervention is designed to achieve.
 http://purl.obolibrary.org/obo/cpo_0000007
+## implementation strategy
+A plan specification that is designed to change specified behaviour patterns that may be used in an intervention.
+http://purl.obolibrary.org/obo/cpo_0000053
+## mechanism precondition
+An information content entity that is necessary for a mechanism to be activated.
+http://purl.obolibrary.org/obo/cpo_0000054
 ## mechanism
 A mediator through which an implementation strategy operates to affect desired implementation outcomes.
 http://purl.obolibrary.org/obo/cpo_0000001
@@ -22,6 +25,9 @@ http://purl.obolibrary.org/obo/cpo_0000005
 ## organizational moderator
 "A moderator that affects the level of influence of an implementation strategy after, or simultaneously with, a mechanism that acts on the situation."
 http://purl.obolibrary.org/obo/cpo_0000009
+## outcome precondition
+An information content entity that is necessary for an outcome to be activated.
+http://purl.obolibrary.org/obo/cpo_0000055
 ## precondition
 An information content entity that is necessary for a mechanism or implementation outcome to be activated.
 http://purl.obolibrary.org/obo/cpo_0000002
