@@ -1,5 +1,8 @@
 # Welcome!
-Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in behavior change interventions. CPO is deliberately small to make it easier to manage and currently only imports Basic Formal Ontology (BFO). CPO is part of the knowledge base that is used to tailor performance reports to healthcare professionals. This work is not peer-reviewed.
+Casual Pathway Ontology (CPO) is an application ontology about mechanisms that participate in digital health interventions. CPO is deliberately small to make it easier to manage and currently only imports Basic Formal Ontology (BFO). CPO is applied in a knowledgebase that is used to tailor performance communication to healthcare professionals. This work is not peer-reviewed. The terms and definitions are contextualized for health systems communication as an interpretation of:
+
+Lewis CC, Klasnja P, Powell BJ, Lyon AR, Tuzzio L, Jones S, Walsh-Bailey C,Weiner B. From Classification to Causality: Advancing Understanding of Mechanisms of Change in Implementation Science. Front Public Health. 2018 May 7;6:136. doi: 
+10.3389/fpubh.2018.00136. eCollection 2018. PubMed PMID: 29868544; PubMed Central PMCID: PMC5949843.
 
 ### Competing Interests
 The authors declare no competing interests.
